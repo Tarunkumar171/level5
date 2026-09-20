@@ -10,7 +10,7 @@ app.get("/health",(req,res)=>{
    return res.status(200).json({message:"all is good👍"})
 })
 app.get("/",(req,res)=>{
-   return res.status(200).json({message:"hello tarun v4👍"})
+   return res.status(200).json({message:"hello tarun after updation👍"})
 })
 
 app.listen(port,()=>{
